@@ -1,0 +1,351 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+
+}
+.flex-container1 {
+    display: flex;
+    background-color: #F3F3F3;
+  }
+  
+  .flex-container1 > button {
+    height: 33px;
+    border: solid rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0);
+    position: relative;
+    left: 70%;
+    margin-left: 3%;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+
+
+  
+  .flex-container1 > button:hover{
+    background-color: #F3F3F3;
+    border: solid #F3F3F3 ;
+    border-bottom: solid blue;
+    text-shadow: 0.3px 0.3px black;
+  }
+  .flex-container2{
+    display: flex;
+    background-color: #FFFFFF;
+  }
+  .logo
+  {
+    border: solid rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0);
+    height: 30px;
+    width: 105px;
+    margin: 6%;
+   
+  }
+  .flex-container2 > button{
+    height: 33px;
+    border: solid rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0);
+    color: #005AFF;
+    position: relative;
+    left: 5%;
+    margin-left: 2%;
+    margin-top: 1%;
+    font-size: 14px;
+
+  }
+  .flex-container2 > button:hover
+  {
+   
+    text-shadow: 0.3px 0.3px #005AFF;
+  }
+.language{
+  
+  font-size: 14px;
+  height: 30px;
+  width: 30px;
+   position: relative;
+   left: 300%;
+}
+.SearchIcon
+{
+ 
+  transform: scaleX(-1);
+  height: 30px;
+  width: 30px;
+  position: relative;
+   right: 300%;
+}
+.main{
+  object-fit:none;
+  height: 550px;
+  width: 100%;
+}
+.H1
+{ @import url('https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+  font-family: 'Carlito', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200;
+  width: 60%;
+  color: white;
+  font-size: 40px;
+  position:absolute;
+  bottom: 50%;
+  left: 1.5%;
+}
+.P1{
+  @import url('https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+  font-family: 'Carlito', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200;
+  width: 60%;
+  color: white;
+  font-size: 23px;
+  position:absolute;
+  bottom: 40%;
+  left: 1.5%;
+}
+.main > button
+{
+  @import url('https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+  font-family: 'Carlito', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  font-weight: 700;
+  height: 45px;
+  width: 200px;
+  border-radius: 4px;
+  color: white;
+  border:solid #005AFF;
+  background-color: #005AFF;
+  position:absolute;
+  bottom: 23%;
+  left: 1.5%;
+  transition: 0.5s;
+
+}
+
+.main > button:hover
+{
+  border:solid #0049B4;
+ background-color: #0049B4;
+}
+.Circle_B
+{
+  display: flex;
+}
+.Circle_B > button
+{
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  position:absolute;
+  bottom: 5%;
+  left: 1.5%;
+  border: solid 1px white;
+  background-color: #ffffff3d;
+  color: #FFFFFF;
+}
+
+.chevron-left
+{
+  padding-top: 2px;
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+  -moz-filter: invert(100%);
+}
+.chevron-right
+{
+  padding-top: 2px;
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+  -moz-filter: invert(100%);
+}
+
+
+
+.flex3
+{
+  display: flex;
+  text-align: left;
+}
+.flex3 > img
+{
+  height: 50%;
+  width: 50%;
+  
+}
+.flex3 > div
+{
+  height: 50%;
+  width: 50%;
+  
+}
+.H2
+{
+  @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400&display=swap');
+  font-family: 'Inconsolata', monospace;
+  font-weight: 100;
+
+
+
+  position: absolute;
+  bottom: -49%;
+  left: 4%;
+}
+.P2
+{
+  position: absolute;
+  left: 4%;
+  bottom: -70%;
+  width: 40%;
+  line-height: 1.7;
+}
+.flex3 > div > button
+{
+  @import url('https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+  font-family: 'Carlito', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  height: 45px;
+  width: 200px;
+  border-radius: 4px;
+  color: white;
+  border:solid #005AFF;
+  background-color: #005AFF;
+  position:absolute;
+  left: 4%;
+  bottom: -85%;
+  transition: 0.5s;
+}
+.flex3 > div > button:hover
+{
+  border:solid #0049B4;
+  background-color: #0049B4;
+}
+.flex4
+{
+  display: flex;
+  text-align: left;
+}
+
+.flex4 > img
+{
+  height: 50%;
+  width: 50%;
+  
+}
+.flex4 > div
+{
+  height: 50%;
+  width: 50%;
+  
+}
+.H3
+{
+  width: 95%;
+  margin-top: 25%;
+  margin-left: 8%;
+}
+.P3
+{
+  width: 85%;
+  margin-top: 5%;
+  margin-left: 8%;
+
+  line-height: 1.7;
+}
+.flex4 > div > button
+{
+  @import url('https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+  font-family: 'Carlito', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+
+  
+  font-size: 16px;
+  font-weight: 700;
+
+  height: 45px;
+  width: 350px;
+
+  border-radius: 4px;
+  color: white;
+  border:solid #005AFF;
+  background-color: #005AFF;
+
+  margin-top: 5%;
+  margin-left: 8%;
+
+  transition: 0.5s;
+}
+.flex4 > div > button:hover
+{
+  border:solid #0049B4;
+  background-color: #0049B4;
+}
+
+
+
+.main2
+{
+  object-fit:cover;
+  height: 320px;
+  width: 100%;
+}
+.main2 > h1
+{
+   margin-top: -18%;
+  margin-left: 1%;
+  color: white;
+}
+
+.Circle_B2 > button
+{
+  margin-left: 1%;
+  margin-top: 1%;
+
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: solid 1px white;
+  background-color: #ffffff3d;
+  color: #FFFFFF;
+}
+
+
+
+.flex5
+{
+  display: flex;
+  text-align: left;
+}
+.flex5 > div
+{
+  margin-left: 1%;
+  margin-top: -7%;
+  height: 50%;
+  width: 50%;
+}
+.flex5 > div > img
+{
+  
+  height: 330px;
+  width: 330px;
+  border-radius:10px;
+}
+.flex5 > div > p
+{
+  
+  margin-top: 2%;
+  width: 330px;
+  
+}
