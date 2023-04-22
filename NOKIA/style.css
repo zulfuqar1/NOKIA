@@ -71,6 +71,7 @@
 }
 .SearchIcon
 {
+  background-color: #005AFF;
  
   transform: scaleX(-1);
   height: 30px;
@@ -189,9 +190,9 @@
 }
 .H2
 {
-  @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400&display=swap');
-  font-family: 'Inconsolata', monospace;
-  font-weight: 100;
+  
+
+  font-weight: 700;
 
 
 
@@ -348,4 +349,239 @@
   margin-top: 2%;
   width: 330px;
   
+}
+.main3
+{
+  object-fit:fill;
+  height: 550px;
+  width: 100%;
+  margin-top: 3%;
+}
+
+.main3 > h1
+{
+  margin-left: 1.5%;
+  margin-top: -37%;
+  font-size: 40px;
+  color: white;
+}
+.main3 > P
+{
+  margin-left: 1.5%;
+  font-size: 20px;
+  margin-top: 2%;
+  color: white;
+}
+
+.main3 > button
+{
+  
+  @import url('https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+  font-family: 'Carlito', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+
+  
+  font-size: 16px;
+  font-weight: 700;
+
+  height: 45px;
+  width: 150px;
+
+  border-radius: 4px;
+  color: white;
+  border:solid #005AFF;
+  background-color: #005AFF;
+
+  margin-top: 5%;
+  margin-left: 1.5%;
+
+  transition: 0.5s;
+}
+.main3 > button:hover
+{
+  border:solid #0049B4;
+  background-color: #0049B4;
+}
+
+.Circle_B3
+{
+  margin-left: 1.5%;
+  margin-top: 7%;
+  display: flex;
+  height: 50px;
+  width: 150px;
+  border-radius: 50%;
+  border: solid 1px white;
+  background-color: #ffffff3d;
+  color: #FFFFFF;
+}
+
+.Circle_B3 > button
+{
+
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: solid 1px white;
+  background-color: #ffffff3d;
+  color: #FFFFFF;
+}
+.moon
+{
+  
+  margin-left: 0.5%;
+  object-fit:contain;
+  height: 100%;
+  width: 99%;
+  margin-top: 5%;
+  border-radius: 5px;
+}
+.moon_texts > h1
+{ font-size: 20px;
+  margin-left: 1%;
+}
+.moon_texts > p
+{ 
+  font-size: 14px;
+  margin-left: 1%;
+  margin-top: 1%;
+}
+
+.main4
+{
+  object-fit:fill;
+  height: 350px;
+  width: 100%;
+  margin-top: 3%;
+}
+
+.main4 > h1
+{
+  height: 35px;
+  margin-left: 1.5%;
+  margin-top: -20%;
+  font-size: 30px;
+  color: white;
+}
+
+.flex6
+{
+  display: flex;
+  text-align: left;
+}
+.flex6 > div
+{
+  margin-left: 1%;
+  margin-top: -7%;
+  height: 50%;
+  width: 50%;
+}
+.flex6 > div > img
+{
+  
+  height: 330px;
+  width: 330px;
+  border-radius:10px;
+}
+.flex6 > div > p
+{
+  
+  margin-top: 2%;
+  width: 330px;
+  
+}
+.lastMain
+{
+  object-fit:fill;
+  height: 300px;
+  width: 100%;
+  margin-top: 2%;
+}
+
+.lastMain > h1
+{ margin-top: -17%;
+  margin-left: 2%;
+  font-size: 23px;
+  color: white;
+}
+.lastMain > p
+{
+  margin-left: 2%;
+  font-size: 17px;
+  color: white;
+}
+
+.lastMain > button{
+  @import url('https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+  font-family: 'Carlito', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+
+  
+  font-size: 16px;
+  font-weight: 700;
+
+  height: 45px;
+  width: 220px;
+
+  border-radius: 4px;
+  color: #005AFF;
+  border:solid white;
+  background-color: white;
+
+  margin-left: 2%;
+ position: relative;
+ bottom: -20%;
+  transition: 0.5s;
+}
+.lastMain > button:hover{
+  color: #0049B4;
+  border:solid #efefef;
+  background-color: #efefef;
+
+}
+.lastlogo
+{ height: 100px;
+  margin-top: 2%;
+
+}
+.logo2
+{
+  background-color: #ffffff00;
+  border: #ffffff00;
+height: 40px;
+width: 90px;
+margin-top: 3%;
+margin-left: 3%;
+}
+.xett
+{
+  margin: auto;
+  background-color: #C7C7C7;
+  height: 1.5px;
+  width: 95%;
+}
+.footer1 > p
+{
+  margin-left:2.5%;
+  margin-top: 2%;
+}
+.footer1 > button
+{
+
+  @import url('https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+  font-family: 'Carlito', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+
+  background-color: rgba(255, 255, 255, 0);
+  border: rgba(255, 255, 255, 0); ;
+  font-weight: 700;
+  margin-left:2.5%;
+  margin-top: 2%;
+}
+.footer2
+{
+  margin-left:2.5%;
 }
