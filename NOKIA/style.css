@@ -653,6 +653,11 @@ margin-left: 3%;
   background-color: white;
   margin-left:2.5%;
   margin-top: 2.5%;
+ transition: 0.5s;}
+.LastButton > button:hover
+{
+   color:#0049B4;
+  border:solid 1px #0049B4;
 }
 .social
 {
